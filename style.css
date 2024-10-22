@@ -1,0 +1,124 @@
+/* Bagian Umum */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #000000;
+    padding: 20px;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #f9f9f9;
+}
+
+.hero-content {
+    width: 50%;
+}
+
+.hero-image img {
+    width: 300px;
+    height: auto;
+}
+
+button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #8B4513;
+}
+
+.layanan-kami {
+    background-color: #000000;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+.layanan-tabel {
+    margin-top: 20px;
+}
+
+.layanan-tabel table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.layanan-tabel th, .layanan-tabel td {
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.produk-kami {
+    padding: 50px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.produk-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.produk-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+.img-box{
+    width: 100%;
+    height: 150px;
+    background-color: #e6e6e6;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

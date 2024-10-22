@@ -1,48 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Toko Gitar</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Toko Gitar Gallagher</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <h1>Toko Gitar Gallagher</h1>
-   
-    <a href="index.html">Home</a>
-    <br>
-    <a href="about.html">About</a>
-    <br>
-    <a href="contact.html">Contact</a>
-    <br>
-    <img src="Logo.jpeg" style="width: 10%">
-    <h2>
-        Layanan Kami
-    </h2>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <h1>Toko Gitar Gallagher</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-    <thead>
-        <table border="1">
-            <thead>
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Selamat Datang di Toko Gitar Gallagher</h2>
+            <p>Tempat terbaik untuk mendapatkan gitar listrik berkualitas yang mampu meningkatkan performa musik Anda. Kami bangga menjadi salah satu toko gitar listrik terkemuka, yang menyediakan berbagai pilihan gitar dari merek-merek ternama hingga gitar custom buatan tangan, khusus untuk memenuhi kebutuhan musisi di segala level, mulai dari pemula hingga profesional.</p>
+            <button>Selengkapnya</button>
+        </div>
+        <div class="hero-image">
+            <img src="Logo.jpeg" alt="Image">
+        </div>
+    </section>
+
+    <section class="layanan-kami">
+        <h2>LAYANAN KAMI</h2>
+        <p>Di Gallagher Shredder Electric Guitar Shop, kami berkomitmen untuk memberikan pengalaman berbelanja yang terbaik bagi setiap pelanggan. Berikut adalah berbagai layanan unggulan yang kami tawarkan untuk memenuhi kebutuhan para musisi</p>
+        
+        <div class="layanan-tabel">
+            <table>
                 <tr>
-                    <td>Nama</td>
-                    <td>Deskripsi</td>
-                    <td>Harga</td>
+                    <th>Penjualan Gitar Listrik Berkualitas Tinggi</th>
+                    <th>Custom Gitar</th>
+                    <th>Servis dan Perbaikan Gitar</th>
                 </tr>
-            </thead>
-            <tbody>
                 <tr>
-                    <td>Fender Stratocaster</td>
-                    <td>salah satu gitar listrik paling ikonik yang telah digunakan oleh banyak musisi terkenal, seperti
-                        Jimi Hendrix dan Eric Clapton. Gitar ini memiliki bentuk body double-cutaway yang ergonomis,
-                        serta dilengkapi dengan tiga pickup single-coil yang memberikan suara cerah dan jernih. Fitur
-                        tremolo-nya memungkinkan variasi nada yang dinamis.</td>
-                    <td> Rp 30.000.000</td>
+                    <td>Kami menyediakan berbagai pilihan gitar listrik dari merek-merek terkenal dan juga gitar custom buatan tangan. Setiap produk yang kami jual telah melalui proses seleksi ketat untuk memastikan kualitas terbaik, baik dari segi suara maupun kenyamanan bermain.</td>
+                    <td>Ingin memiliki gitar yang benar-benar unik sesuai dengan karakter bermain Anda? Kami menawarkan layanan pembuatan gitar custom, di mana Anda bisa memilih desain, material, dan spesifikasi yang diinginkan, mulai dari jenis kayu, neck profile, hingga pickup yang sesuai dengan tone favorit Anda.</td>
+                    <td>Gitar Anda butuh diservis? Kami menyediakan layanan perbaikan gitar oleh teknisi profesional. Dari penggantian senar, setting neck, hingga perbaikan elektronik, kami memastikan gitar Anda selalu dalam kondisi prima.</td>
                 </tr>
-            </tbody>
-        </table>
-    </thead>
-    
+            </table>
+        </div>
+    </section>
+
+    <section class="produk-kami">
+        <h2>PRODUK KAMI</h2>
+        <p>Di Gallagher Shredder Electric Guitar Shop, kami menawarkan berbagai produk berkualitas tinggi yang dirancang untuk memenuhi kebutuhan para musisi, baik pemula maupun profesional. Berikut adalah produk-produk unggulan yang kami tawarkan:</p>
+        
+        <div class="produk-container">
+            <div class="produk-card">
+                <div class="img-box">
+                    <img src="syn.png" alt="Produk 3">
+                </div>
+                <h3>Schecter Synyster Gates Signature</h3>
+                <p>Bridge Pickup: Active Humbucker (EMG 81)
+                    Neck Pickup: Active Humbucker (EMG 60)
+                    $2,000 USD.</p>
+            </div>
+            <div class="produk-card">
+                <div class="img-box">
+                    <img src="zakcy.png" alt="Produk 3">
+                </div>
+                <h3>Schecter Zacky Vengeance Signature</h3>
+                <p>Bridge Pickup: Active Humbucker (EMG 81)
+                    Neck Pickup: Active Humbucker (EMG 85)
+                    $1,500 USD</p>
+            </div>
+            <div class="produk-card">
+                <div class="img-box">
+                    <img src="jpm.png" alt="Produk 3">
+                </div>
+                <h3>Music Man John Petrucci Signature</h3>
+                <p>Bridge Pickup: DiMarzio Crunch Lab
+                    Neck Pickup: DiMarzio Liquifire</p>
+                <p>$3,000 USD</p>    
+            </div>
+        </div>
+    </section>
+
 </body>
-
 </html>
