@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Toko Gitar Gallagher</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+
 </head>
 <body>
     <header>
@@ -14,31 +17,30 @@
                 <h1>Toko Gitar Gallagher</h1>
             </div>
             <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
+                <div class="toggle-btn" onclick="toggleMenu()">&#9776;</div>
+                <ul id="menu" class="hidden">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#kontak">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <section class="hero">
+    <section id = "home"class="hero">
         <div class="hero-content">
             <h2>Selamat Datang di Toko Gitar Gallagher</h2>
             <p>Tempat terbaik untuk mendapatkan gitar listrik berkualitas yang mampu meningkatkan performa musik Anda. Kami bangga menjadi salah satu toko gitar listrik terkemuka, yang menyediakan berbagai pilihan gitar dari merek-merek ternama hingga gitar custom buatan tangan, khusus untuk memenuhi kebutuhan musisi di segala level, mulai dari pemula hingga profesional.</p>
             <button>Selengkapnya</button>
         </div>
-        <div class="hero-image">
-            <img src="Logo.jpeg" alt="Image">
-        </div>
+        <div class="hero-image"></div>
     </section>
 
     <section class="layanan-kami">
         <h2>LAYANAN KAMI</h2>
         <p>Di Gallagher Shredder Electric Guitar Shop, kami berkomitmen untuk memberikan pengalaman berbelanja yang terbaik bagi setiap pelanggan. Berikut adalah berbagai layanan unggulan yang kami tawarkan untuk memenuhi kebutuhan para musisi</p>
         
-        <div class="layanan-tabel">
+        <div id= "about" class="layanan-tabel">
             <table>
                 <tr>
                     <th>Penjualan Gitar Listrik Berkualitas Tinggi</th>
@@ -58,7 +60,8 @@
         <h2>PRODUK KAMI</h2>
         <p>Di Gallagher Shredder Electric Guitar Shop, kami menawarkan berbagai produk berkualitas tinggi yang dirancang untuk memenuhi kebutuhan para musisi, baik pemula maupun profesional. Berikut adalah produk-produk unggulan yang kami tawarkan:</p>
         
-        <div class="produk-container">
+        <div id = "produk" class="produk-container">
+
             <div class="produk-card">
                 <div class="img-box">
                     <img src="syn.png" alt="Produk 3">
@@ -87,7 +90,17 @@
                 <p>$3,000 USD</p>    
             </div>
         </div>
+
     </section>
 
+        <section id="kontak" class="contact-section">
+            <h2>Kontak Kami</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Nama">
+                <input type="email" placeholder="Email">
+                <textarea placeholder="Pesan"></textarea>
+                <button type="submit">Kirim</button>
+            </form>
+        </section>
 </body>
 </html>
